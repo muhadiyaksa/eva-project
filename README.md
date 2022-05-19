@@ -23,7 +23,7 @@
     <li>
        talent-management -> Untuk Pages talent-management, letakan seluruh File talent-management dalam folder tersebut
     </li>
-
+</ul> 
 <hr>
 
 #### Penjelasan File Index
