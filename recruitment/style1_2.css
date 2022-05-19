@@ -1,0 +1,57 @@
+#section1-1 {
+    background-color: var(--warna5);
+}
+#section1-1 .col1{
+    padding-top: 110px;
+}
+#section1-1 .col1 h1{
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 900;
+    margin-bottom: 21px;
+}
+#section1-1 .col1 p{
+    font-size: 15px;
+    line-height: 25.5px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: #4A5568;
+}
+#section1-1 .meetcindy{
+    width: 157.5px;
+    margin-top: 32px;
+}
+#section1-1 .bgorang{
+    margin: auto;
+    width: 191.3px;
+    height: 301.4px;
+    background-color: var(--warna2);
+    margin-top: 32px;
+    margin-bottom: 66px;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#section1-1 .orang{
+    width: 260.5px;
+}
+#section1-1 .kart{
+    position: absolute;
+}
+#section1-1 .kart1{
+    width: 102px;
+    transform: translate(-70px,180px);
+}
+#section1-1 .kart2{
+    width: 111px;
+    transform: translate(-70px,330px);
+}
+#section1-1 .kart3{
+    width: 80px;
+    transform: translate(140px,180px);
+}
+#section1-1 .kart4{
+    width: 94px;
+    transform: translate(140px,330px);
+}

@@ -1,0 +1,6 @@
+.add-display-none {
+  display: none;
+}
+.remove-display-none {
+  display: block;
+}

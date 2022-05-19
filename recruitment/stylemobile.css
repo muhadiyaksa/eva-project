@@ -1,0 +1,29 @@
+#section1-1 .text-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 90px;
+}
+
+#section1-1 .text-description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170%;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  #section1-1 .text-description {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 170%;
+    text-align: center;
+  }
+}
