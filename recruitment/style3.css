@@ -132,6 +132,13 @@
   line-height: 170%;  
 }
 
+@media (max-width: 320px) {
+  .section3-2 .solusibtn {
+    width: 80vw;
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 374px) {
   .section3-2 {
     background-color: var(--warna5);
@@ -150,10 +157,6 @@
   }
   .section3-2 .liquid_9a {
     margin-top: -92px;
-  }
-  .section3-2 .solusibtn {
-    width: 66vw;
-    margin-top: 20px;
   }
   .section3-2 .slider .indicator-slider {
     top: 0;
@@ -193,8 +196,7 @@
   }
   .section3-2 .desc {
     font-size: 15px;
-    margin-top: 24px;
-    margin-bottom: 28px;
+    margin: 24px 1% 28px;
   }
   .section3-2 .liquid_9a {
     margin-top: -92px;
@@ -236,8 +238,7 @@
   }
   .section3-2 .desc {
     font-size: 15px;
-    margin-top: 24px;
-    margin-bottom: 28px;
+    margin: 24px 1% 28px;
   }
   .section3-2 .liquid_9a {
     margin-top: -92px;
@@ -276,8 +277,7 @@
     margin: 0 auto;
   }
   .section3-2 .desc {
-    margin-top: 16px;
-    margin-bottom: 32px;
+    margin: 16px 1% 32px;
   }
   .section3-2 .solusibtn {
     margin-top: 20px;
@@ -343,8 +343,7 @@
   }
   #section3-2 .desc {
     font-size: 16px;
-    margin-top: 16px;
-    margin-bottom: 32px;
+    margin: 16px 1% 32px;
   }
   .section3-2 .liquid_9a {
     margin-top: -92px;
@@ -395,8 +394,7 @@
   }
   .section3-2 .desc {
     font-size: 18px;
-    margin-top: 24px;
-    margin-bottom: 32px;
+    margin: 24px 1% 32px;
     line-height: 170%;
   }
   .section3-2 .slider .board-slider {
@@ -439,8 +437,7 @@
   }
   .section3-2 .desc {
     font-size: 18px;
-    margin-top: 24px;
-    margin-bottom: 36px;
+    margin: 24px 1% 36px;
   }
   .section3-2 .slider {
     height: 330px;
