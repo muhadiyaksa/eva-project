@@ -1,15 +1,35 @@
+body {
+  position: relative;
+}
 footer {
   position: relative;
   background-color: #2b2b29;
   color: white;
   overflow: hidden;
   z-index: 0;
-  display: flex;
+  font-family: "Inter", sans-serif;
   align-items: center;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
-
+footer .copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #4b4b4b;
+  padding: 15px 20px;
+  border-radius: 20px 20px 0px 0px;
+}
+footer .copyright p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
 footer .head img {
   max-height: 80px;
 }
@@ -38,6 +58,7 @@ footer .link h5 {
   margin-bottom: 25px;
 }
 footer .link a {
+  font-weight: 400 !important;
   font-size: 14px;
   text-decoration: none;
   color: white;
@@ -46,16 +67,25 @@ footer .link a {
   position: relative;
   margin-top: -8px;
 }
-footer .link a i {
+footer .contactsec a {
+  white-space: nowrap;
+}
+footer .link a span {
+  position: relative;
+  transition: 0.4s;
+  opacity: 0;
+  width: 15px;
+}
+footer .link a span i {
+  position: absolute;
+  right: 0;
+  top: -14px;
   margin-left: 1rem;
   color: #ffcf54;
   opacity: 0;
   animation: right 1.5s infinite linear 0s;
 }
-footer .link a span {
-  transition: 0.4s;
-  opacity: 0;
-}
+
 footer .link a:hover span {
   opacity: 1;
   transform: translateX(10px);
@@ -65,29 +95,76 @@ footer .link a:hover span {
 @-webkit-keyframes right {
   0% {
     opacity: 0;
-    margin-left: -10px;
+    right: 10px;
+    /* margin-left: -10px; */
   }
   20% {
     opacity: 1;
-    margin-left: 0px;
+    right: 0px;
+    /* margin-left: 0px; */
     /* transform: translateX(0px); */
   }
   80% {
     opacity: 1;
-    margin-left: 0px;
+    right: 0px;
+    /* margin-left: 0px; */
     /* transform: translateX(0px); */
   }
   90% {
     opacity: 0;
-    margin-left: 10px;
+    right: -10px;
+
+    /* margin-left: 10px; */
     /* transform: translateX(10px); */
   }
   100% {
     opacity: 0;
-    margin-left: -10px;
+    right: 10px;
+
+    /* margin-left: -10px; */
     /* transform: translateX(-10px); */
   }
 }
 footer .link .contact {
   font-size: 12px !important;
+  margin-top: -5px;
+}
+
+@media (min-width: 992px) {
+  #yaa {
+    margin-bottom: 550px;
+  }
+  body {
+    position: relative;
+  }
+  footer {
+    min-width: 100%;
+    padding-top: 180px;
+    padding-bottom: 140px;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+  }
+  footer .copyright {
+    width: 600px;
+  }
+  footer .copyright p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+@media (min-width: 1400px) {
+  #yaa {
+    margin-bottom: 0px;
+  }
+  body {
+    position: static;
+  }
+  footer {
+    min-width: 100%;
+    position: sticky;
+    bottom: 0;
+    overflow: hidden;
+    padding-top: 120px;
+  }
 }
