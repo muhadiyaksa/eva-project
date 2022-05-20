@@ -1381,6 +1381,7 @@
   position: relative;
   background-color: #EDF2F7;
   z-index: 1;
+  border-radius: 0 0 50px 50px;
 }
 .formSection .formContent {
   padding: 65px 0px;
@@ -1640,7 +1641,7 @@ footer {
   z-index: 0;
   display: flex;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 150px;
 }
 footer img.footer-element {
   position: absolute;
@@ -1963,9 +1964,6 @@ footer .copyright span {
 }
 
 @media (min-width: 768px) {
-  footer {
-    padding-top: 80px;
-  }
   footer .grid-container {
     grid-template-rows: 360px 440px 420px;
     grid-template-columns: 1fr;
