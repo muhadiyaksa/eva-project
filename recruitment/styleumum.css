@@ -138,7 +138,10 @@ body {
     border-radius: 0 0 30px 30px;
   }
   .borderakhir .process {
-    transform: translateY(20px);
+    font-size: 15px;
+  }
+  .liquidborderakhir {
+    margin-top: 105px;
   }
 }
 
