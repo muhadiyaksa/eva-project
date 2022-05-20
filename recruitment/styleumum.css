@@ -21,7 +21,7 @@ body {
 }
 .borderakhir {
   position: absolute;
-  border-radius: 0px 0px 50px 50px;
+  border-radius: 0px 0px 152px 152px;
   background-color: #edf2f7;
   margin-top: -10px;
   width: 100%;
@@ -96,6 +96,9 @@ body {
     font-size: 16px;
     font-weight: 400;
   }
+  .borderakhir {
+    border-radius: 0 0 95px 95px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -107,13 +110,46 @@ body {
   .solusibtn {
     width: 240px;    
   }
+  .borderakhir {
+    border-radius: 0 0 78px 78px;
+  }
+}
+
+@media (max-width: 992px) {
+  .borderakhir {
+    border-radius: 0 0 45px 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .liquidborderakhir {
+    width: 80%;
+  }
 }
 
 @media (max-width: 575px) {
   .solusibtn {
-    font-weight: 400;
-    font-size: 14px;
-    width: 240px;
-    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 270px;
+    height: 54px;
+  }
+  .borderakhir {
+    border-radius: 0 0 30px 30px;
+  }
+  .borderakhir .process {
+    transform: translateY(20px);
+  }
+}
+
+@media (max-width: 374px) {
+  .liquidborderakhir {
+    width: 0;
+  }
+  .borderakhir {
+    border-radius: 0 0 25px 25px;
+  }
+  .borderakhir .process {
+    transform: translateY(10px);
   }
 }
