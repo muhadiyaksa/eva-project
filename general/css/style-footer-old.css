@@ -1,0 +1,264 @@
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ------FOOTER--------------------------------FOOTER-----------------------------------------FOOTER---------- */
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------- */
+
+footer {
+  position: relative;
+  background-color: #2b2b29;
+  color: white;
+  overflow: hidden;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+footer .container {
+  z-index: 2;
+}
+footer img.footer-element {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+footer .grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 260px 310px 370px;
+  grid-template-areas:
+    "join"
+    "social"
+    "image";
+  row-gap: 10px;
+  column-gap: 10px;
+  z-index: 3;
+}
+footer .grid-container .join {
+  grid-area: join;
+  padding: 30px 0px;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+footer .grid-container .join button {
+  background-color: #ffcf54;
+  font-weight: 600 !important;
+  box-shadow: 13px 14px 21px rgba(0, 0, 0, 0.5);
+  font-size: 14px !important;
+  padding: 10px 0px;
+  margin: 0 auto;
+  border-radius: 7px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+footer .grid-container .join button:hover {
+  background-color: #ffc01f;
+  box-shadow: 5px 18px 28px rgba(0, 0, 0, 0.5);
+}
+footer .grid-container .join h2 {
+  font-weight: 700;
+}
+
+footer .grid-container .konten {
+  grid-area: social;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 15px;
+}
+footer .grid-container .konten span.subjudul {
+  border-bottom: 3px solid #ffcf54;
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+footer .grid-container .konten a {
+  color: #f7fafc !important;
+  transition: 0.3s;
+}
+
+footer .grid-container .konten a:hover {
+  color: #ffcf54 !important;
+}
+
+footer .social a,
+footer .grid-container .join a {
+  height: 33px;
+  width: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #2b2b29 !important;
+  background-color: #f7fafc;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+footer .social a:hover,
+footer .grid-container .join a:hover {
+  background-color: #ffcf54;
+}
+footer .grid-container .image {
+  grid-area: image;
+  position: relative;
+}
+footer .image .image-list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+footer .image .image-list img:not(.footer-people) {
+  position: absolute;
+  max-height: 120px;
+}
+
+footer img.footer-people {
+  max-height: 210px;
+  transform: translateX(90%);
+}
+footer img.eva-rec {
+  align-self: flex-start;
+  transform: translateX(27%) translateY(50%);
+  z-index: 2;
+}
+footer img.eva-talent {
+  align-self: center;
+  transform: translateX(-40%) translateY(5%);
+  z-index: 2;
+}
+footer img.eva-essen {
+  align-self: bottom;
+  transform: translateX(-80%) translateY(-25%);
+  z-index: 2;
+}
+footer span.eva-essen-span,
+footer span.eva-rec-span,
+footer span.eva-talent-span {
+  align-self: center;
+  transition: 0.3s;
+  box-shadow: 0 0 0 0 rgba(180, 102, 0, 0.384);
+  animation: pulsing 2.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  z-index: 99;
+  border-radius: 50%;
+  background-color: #d4a325;
+  z-index: 1;
+}
+footer span.eva-essen-span {
+  transform: translateX(-444%) translateY(178%);
+  min-height: 52px;
+  min-width: 52px;
+}
+footer span.eva-talent-span {
+  transform: translateX(-250%) translateY(7%);
+  min-height: 52px;
+  min-width: 52px;
+}
+footer span.eva-rec-span {
+  transform: translateX(2%) translateY(-129%);
+  min-height: 52px;
+  min-width: 52px;
+}
+@-webkit-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 35px rgba(173, 173, 173, 0);
+  }
+}
+footer img.white1 {
+  align-self: flex-start;
+  transform: translateX(15%) translateY(10%);
+  min-height: 180px;
+  opacity: 0.2;
+}
+footer img.white2 {
+  align-self: bottom;
+  transform: translateX(-65%) translateY(-10%);
+  min-height: 160px;
+  opacity: 0.2;
+}
+
+footer .copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  height: 40px;
+  margin-bottom: -10px;
+}
+
+footer .copyright span {
+  border-radius: 10px 10px 0 0;
+  font-size: 8px;
+  background-color: #4b4b4b;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+@media (min-width: 375px) {
+  footer .grid-container {
+    grid-template-rows: 300px 340px 380px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "join"
+      "social"
+      "image";
+  }
+  footer .grid-container .konten {
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  footer .image .image-list img:not(.footer-people) {
+    max-height: 140px;
+  }
+  footer img.eva-rec {
+    transform: translateX(30%) translateY(-20%);
+  }
+  footer img.eva-talent {
+    transform: translateX(-40%) translateY(-35%);
+  }
+  footer img.eva-essen {
+    transform: translateX(-70%) translateY(-40%);
+  }
+  footer span.eva-essen-span {
+    transform: translateX(-460%) translateY(105%);
+    min-height: 60px;
+    min-width: 60px;
+  }
+  footer span.eva-talent-span {
+    transform: translateX(-290%) translateY(-85%);
+    min-height: 60px;
+    min-width: 60px;
+  }
+  footer span.eva-rec-span {
+    transform: translateX(-27%) translateY(-250%);
+    min-height: 60px;
+    min-width: 60px;
+  }
+  footer img.white1 {
+    transform: translateX(20%) translateY(-25%);
+    min-height: 200px;
+  }
+  footer img.white2 {
+    transform: translateX(-50%) translateY(-10%);
+    min-height: 220px;
+  }
+  footer img.footer-people {
+    max-height: 300px;
+    transform: translateX(75%);
+  }
+  footer .copyright {
+    margin-bottom: -5px;
+  }
+  footer .copyright span {
+    font-size: 10px;
+    padding: 13px 17px;
+    margin-bottom: 20px;
+  }
+}
