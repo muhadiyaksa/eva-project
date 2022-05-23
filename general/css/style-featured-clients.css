@@ -1,0 +1,186 @@
+#ClientEVA {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    background-color: #edf2f7;
+    z-index: 1;
+    box-shadow: #edf2f7 0px 10px;
+  }
+  
+  #ClientEVA .judul {
+    font-weight: 800 !important;
+    font-size: 56px;
+  }
+  
+  #ClientEVA .row {
+    --bs-gutter-x: 0rem;
+  }
+  
+  #ClientEVA .anim2 {
+    font-size: 18px;
+  }
+  
+  #ClientEVA .slider {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 100vw;
+  }
+  
+  #ClientEVA .slider .slide-track {
+    margin-top: -100px;
+    -webkit-animation: marquee3 36s linear infinite;
+    animation: marquee3 36s linear infinite;
+    display: flex;
+    /* width: calc(300px * 12); */
+  }
+  
+  @keyframes marquee3 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  #ClientEVA .rectangle {
+    position: absolute;
+    width: 100vw;
+    height: 20%;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(237, 242, 247, 0) 0%, #e2e8f0 100%);
+  }
+  
+  .solusiButton {
+    background-color: #212529;
+    color: white;
+    transition: 0.5s;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    width: 240px;
+    height: 40px;
+    border: none;
+  }
+  
+  .solusiButton i {
+    color: white;
+    font-weight: 400;
+  }
+  
+  .solusiButton:hover {
+    background-color: #ffa600 !important;
+  }
+  
+  #ClientEVA .back-circle {
+    width: 100%;
+    border-radius: 0 0 100% 100%;
+    background-color: #e2e8f0;
+    padding-top: 3rem;
+  }
+  
+  @media (min-width: 320px) {
+    #ClientEVA {
+      height: 680px;
+    }
+    #ClientEVA .slider {
+      margin-top: 40px;
+    }
+    #ClientEVA .slider img {
+      width: 900px;
+    }
+    #ClientEVA .judul {
+      font-size: 32px;
+      font-weight: 800 !important;
+      margin: 0 15px 0 15px;
+      line-height: 38.13px;
+      letter-spacing: 0.05em;
+    }
+    .anim2 {
+      margin: 0 15px 0 15px;
+    }
+  }
+  
+  @media (min-width: 375px) {
+    #ClientEVA {
+      height: 630px;
+    }
+    #ClientEVA .slider {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    #ClientEVA {
+      height: 600px;
+    }
+    #ClientEVA .slider {
+      margin-top: 20px;
+    }
+    #ClientEVA .slider img {
+      width: 1000px;
+    }
+    .anim2 {
+      font-size: 18px;
+      margin: 0 70px 0 70px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #ClientEVA {
+      height: 620px;
+    }
+    .anim2 {
+      margin: 12px 0 12px 0;
+    }
+    
+  }
+  
+  @media (min-width: 992px) {
+    #ClientEVA {
+      height: 700px;
+    }
+    #ClientEVA .slider img {
+      width: 1200px;
+    }
+    #ClientEVA .judul {
+      font-size: 38px;
+      white-space: nowrap;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #ClientEVA {
+      height: 720px;
+    }
+    #ClientEVA .judul {
+      font-size: 48px;
+    }
+    .anim2 {
+      margin: 32px 0 32px 0;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    #ClientEVA {
+      height: 800px;
+    }
+    #ClientEVA .slider img {
+      width: 1400px;
+    }
+    #ClientEVA .judul {
+      font-size: 56px;
+    }
+    @keyframes marquee3 {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-30%);
+      }
+    }
+    .anim1 {
+      font-size: 56px;
+    }
+  }

@@ -5,15 +5,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="redirect.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
   <title>Eva Talent Management</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+  <!--import dari general-->
+  <link rel="stylesheet" href="../general/stylesheets/bootstrap.min.css" />
+  <link rel="stylesheet" href="../general/stylesheets/aos.css">
+  <link rel="stylesheet" href="../general/stylesheets/font.css">
+  <!-- owl-caro -->
+  <link rel="stylesheet" href="../general/stylesheets/owl.carousel.min.css">
+  <link rel="stylesheet" href="../general/stylesheets/owl.theme.default.min.css">
+  
+  <!--style eva talent-->
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    if (
+      screen.width <= 992 &&
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      ) === true
+    ) {
+      window.location.reload();
+      document.location = "\m";
+    }
+  </script>
 </head>
 
 <body>
@@ -1699,23 +1718,42 @@
   </footer>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/easing/EasePack.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/TextPlugin.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+  <script src="../general/sources/gsap.min.js"></script>
+  <script src="../general/sources/aos.js"></script>
+  <script src="../general/sources/ScrollToPlugin.min.js"></script>
+  <script src="../general/sources/ScrollTrigger.min.js"></script>
+  <script src="../general/sources/jquery-3.6.0.min.js"></script>
+  <script src="../general/sources/bootstrap.bundle.min.js"></script>
+  <script src="../general/sources/TextPlugin.min.js"></script>
 
   <script>
     AOS.init();
   </script>
 
   <script src="main.js"></script>
+
+  <script>
+    if (
+      screen.width <= 992 &&
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      ) === true
+    ) {
+      window.location.reload();
+      document.location = "\m";
+    }
+    $(window).resize(function () {
+      if (
+        screen.width <= 992 &&
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        ) === true
+      ) {
+        window.location.reload();
+        document.location = "\m";
+      }
+    });
+  </script>
 </body>
 
 </html>
