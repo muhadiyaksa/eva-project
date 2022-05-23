@@ -409,11 +409,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // DOMContentLoaded  end
 
-document.querySelector('#nav .first-button').addEventListener('click', function () {
-
-  document.querySelector('#nav .animated-icon1').classList.toggle('open');
-  });
-
 /*random content setiap refresh*/       
 $(".random"+(new Date().getTime() % 3)).css("display", "block");
 
@@ -534,3 +529,8 @@ ScrollTrigger.create({
 });
 
 //--------------------------------------------------------------------------
+/*hamburger icon*/
+document.querySelector('#nav .first-button').addEventListener('click', function () {
+
+  document.querySelector('#nav .animated-icon1').classList.toggle('open');
+  });
