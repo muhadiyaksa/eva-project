@@ -70,10 +70,10 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Hubungi Kami</a>
+                <a class="nav-link" href="../contact/index.html">Hubungi Kami</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tentang Kami</a>
+                <a class="nav-link" href="../about/index.html">Tentang Kami</a>
               </li>
             </ul>
             <form class="d-flex">
