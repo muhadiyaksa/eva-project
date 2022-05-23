@@ -8,12 +8,13 @@ $(document).ready(function () {
   $('.conclusion .owl-carousel').owlCarousel({
     loop: true,
     items: 3,
+    autoWidth:true,
     center: true,
-    margin: 45,
     nav: true,
     responsive: {
       0: {
-        items: 1
+        items: 1,
+        margin: 30
       },
       600: {
         items: 3,
@@ -25,6 +26,7 @@ $(document).ready(function () {
     loop: false,
     items: 1,
     center: true,
+    autoWidth:true,
     // margin:45,
     nav: true,
     responsive: {

@@ -68,8 +68,8 @@
 }
 
 body {
-    overflow-x: hidden;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 
 .neo2 {
@@ -1935,7 +1935,7 @@ footer .copyright span {
 
 .section-1 {
     padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
     background-color: #E2E8F0;
     overflow: hidden;
 }
@@ -2036,7 +2036,7 @@ footer .copyright span {
 .conclusion .owl-carousel .item {
     transition: 1s;
     background-color: #fbfbfb;
-    width: 250px;
+    width: 270px;
     height: 330px;
     border-radius: 20px;
     background-color: #edf2f7;
@@ -2265,8 +2265,8 @@ footer .copyright span {
 }
 
 .game-changer .item {
-    width: 300px !important;
-    height: 500px;
+    width: 250px !important;
+    height: 480px;
     width: 90%;
     border-radius: 40px;
     background-size: cover;
@@ -2280,7 +2280,7 @@ footer .copyright span {
     margin-top: 50px;
 }
 
-.game-changer .owl-stage-outer {
+.owl-stage-outer {
     overflow: visible !important;
 }
 
@@ -2301,4 +2301,36 @@ footer .copyright span {
 .content-bawah {
     display: flex;
     justify-content: center;
+    margin-left: 20px;
+}
+
+@media(max-width: 400px) {
+    .content-bawah {
+        transform: scale(0.8);
+        margin-left: 10px;
+    }
+    .kart1 {
+        margin-left: -200px;
+    }
+    
+    .kart2 {
+        margin-left: -200px;
+    }
+    
+    .kart3 {
+        margin-left: 200px;
+    }
+    
+    .kart4 {
+        margin-left: 200px;
+    }
+}
+
+.game-changer .row{
+    --bs-gutter-x: unset;
+}
+
+.game-changer .owl-item{
+    display: flex;
+    align-items: center;
 }
