@@ -2232,7 +2232,7 @@ footer .copyright span {
 /* -------------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------------------------- */
 
-#bagianEVA {
+#ClientEVA {
   position: relative;
   height: 600px;
   overflow: hidden;
@@ -2241,23 +2241,23 @@ footer .copyright span {
   box-shadow: #edf2f7 0px 10px;
 }
 
-#bagianEVA .judul {
+#ClientEVA .judul {
   font-weight: 800 !important;
   font-size: 32px;
   margin: 0 15px 0 15px;
   line-height: 38.13px;
 }
 
-#bagianEVA .row {
+#ClientEVA .row {
   --bs-gutter-x: 0rem;
 }
 
-#bagianEVA .anim2 {
+#ClientEVA .anim2 {
   font-size: 18px;
   margin: 0 70px 0 70px;
 }
 
-#bagianEVA .slider {
+#ClientEVA .slider {
   overflow: hidden;
   position: relative;
   display: flex;
@@ -2265,11 +2265,11 @@ footer .copyright span {
   margin-top: 20px;
 }
 
-#bagianEVA .slider img {
+#ClientEVA .slider img {
   width: 1000px;
 }
 
-#bagianEVA .slider .slide-track {
+#ClientEVA .slider .slide-track {
   margin-top: -100px;
   -webkit-animation: marquee3 36s linear infinite;
   animation: marquee3 36s linear infinite;
@@ -2286,7 +2286,7 @@ footer .copyright span {
   }
 }
 
-#bagianEVA .rectangle {
+#ClientEVA .rectangle {
   position: absolute;
   width: 100vw;
   height: 20%;
@@ -2315,7 +2315,7 @@ footer .copyright span {
   background-color: #ffa600 !important;
 }
 
-#bagianEVA .back-circle {
+#ClientEVA .back-circle {
   width: 100%;
   border-radius: 0 0 100% 100%;
   background-color: #e2e8f0;
@@ -2323,16 +2323,16 @@ footer .copyright span {
 }
 
 @media (min-width: 320px) {
-  #bagianEVA {
+  #ClientEVA {
     height: 680px;
   }
-  #bagianEVA .slider {
+  #ClientEVA .slider {
     margin-top: 40px;
   }
-  #bagianEVA .slider img {
+  #ClientEVA .slider img {
     width: 900px;
   }
-  #bagianEVA .judul {
+  #ClientEVA .judul {
     font-size: 32px;
     font-weight: 800 !important;
     margin: 0 15px 0 15px;
@@ -2345,22 +2345,22 @@ footer .copyright span {
 }
 
 @media (min-width: 375px) {
-  #bagianEVA {
+  #ClientEVA {
     height: 630px;
   }
-  #bagianEVA .slider {
+  #ClientEVA .slider {
     margin-top: 20px;
   }
 }
 
 @media (min-width: 576px) {
-  #bagianEVA {
+  #ClientEVA {
     height: 600px;
   }
-  #bagianEVA .slider {
+  #ClientEVA .slider {
     margin-top: 20px;
   }
-  #bagianEVA .slider img {
+  #ClientEVA .slider img {
     width: 1000px;
   }
   .anim2 {
@@ -2370,7 +2370,7 @@ footer .copyright span {
 }
 
 @media (min-width: 768px) {
-  #bagianEVA {
+  #ClientEVA {
     height: 620px;
   }
   .anim2 {
@@ -2380,23 +2380,23 @@ footer .copyright span {
 }
 
 @media (min-width: 992px) {
-  #bagianEVA {
+  #ClientEVA {
     height: 700px;
   }
-  #bagianEVA .slider img {
+  #ClientEVA .slider img {
     width: 1200px;
   }
-  #bagianEVA .judul {
+  #ClientEVA .judul {
     font-size: 38px;
     white-space: nowrap;
   }
 }
 
 @media (min-width: 1200px) {
-  #bagianEVA {
+  #ClientEVA {
     height: 720px;
   }
-  #bagianEVA .judul {
+  #ClientEVA .judul {
     font-size: 48px;
   }
   .anim2 {
@@ -2405,13 +2405,13 @@ footer .copyright span {
 }
 
 @media (min-width: 1400px) {
-  #bagianEVA {
+  #ClientEVA {
     height: 800px;
   }
-  #bagianEVA .slider img {
+  #ClientEVA .slider img {
     width: 1400px;
   }
-  #bagianEVA .judul {
+  #ClientEVA .judul {
     font-size: 56px;
   }
   @keyframes marquee3 {
@@ -2886,7 +2886,7 @@ border-radius: 11px;
 @media screen and (min-width: 992px){
   #flip-card {
    padding-bottom: 200px;
-    
+    overflow-x: hidden;
   }
   #flip-card .judul {
     font-size: 38px !important;

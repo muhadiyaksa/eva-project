@@ -16,7 +16,7 @@ if(window.matchMedia("(min-width: 992px)").matches) {
   
   ScrollTrigger.create({
     animation: tl3,
-    trigger: "#bagianEVA",
+    trigger: "#ClientEVA",
     start: "0% 10%",
     end: "90% center",
     toggleActions: "play none none none",
