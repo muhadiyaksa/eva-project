@@ -99,8 +99,8 @@ body {
   background-color: transparent;
 }
 #nav .logolingkaran {
-  width: 72px;
-  height: 72px;
+  width: 62px;
+  height: 62px;
   border-radius: 50%;
   background-color: #FFCF54;
   margin-right: 25px;
@@ -116,6 +116,9 @@ body {
 #nav .dropdown-item p{
   margin: 0;
 }
+#nav .logolingkaran img{
+  width: 40%;
+}
 /* RESPONSIVE */
 @media (min-width: 992px){
   #nav .dropdown-toggle::after{
@@ -123,7 +126,7 @@ body {
     border: none;
     width: 20px;
     height: 20px;
-    background-image: url("../img/Nav-IconArrow.svg");
+    background-image: url("Assets/Nav-IconArrow.svg");
     background-size: contain;
   }
   #nav .dropdown:hover .dropdown-menu {
@@ -138,6 +141,7 @@ body {
     background-color: #edf2f7 !important;
     border-radius: 20px;
     padding: 30px;
+    padding-bottom: 20px !important;
     border: 0.5px solid rgba(88, 88, 88, 0.164);
   }
 }
