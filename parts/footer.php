@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Footer</title>
-    <link rel="icon" href="icon/icon eva transparan.png" />
-    <link rel="stylesheet" href="src/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <link rel="stylesheet" href="src/font-awesome-pro-5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="../general/css/style-footer.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
-  </head>
-  <body>
-    <section id="yaa" style="height: 1000px; background-color: orange; position: relative; z-index: 1"></section>
     <footer>
       <div class="container">
         <div class="row align-items-center head">
@@ -124,5 +102,4 @@
         <p>Copyright © 2022 EVA. All rights reserved. <span class="d-none d-lg-inline-block">| EVA is powered by HashMicro</span></p>
       </div>
     </footer>
-  </body>
-</html>
+

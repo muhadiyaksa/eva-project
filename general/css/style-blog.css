@@ -1,0 +1,250 @@
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ------BLOG SECTION--------------------------BLOG SECTION-----------------------------------BLOG SECTION---- */
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------- */
+.blog {
+  margin-top: -1px;
+  margin-bottom: -2px;
+  padding: 100px 0px;
+  background-color: #e2e8f0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.blog .judul h1 {
+  font-weight: 900;
+  font-size: 23px;
+  color: #2b2b29;
+}
+.blog .judul p {
+  letter-spacing: 0.1rem;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  color: #2b2b29;
+}
+.blog .slider-blog {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog .slider-blog .board-slider-blog {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  overflow-x: hidden;
+}
+.blog .slider-blog .board-slider-blog .card {
+  background-color: white;
+  height: auto;
+  min-width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 45px;
+  border: none;
+  color: #2b2b29;
+  transition: 0.3s;
+}
+.blog .slider-blog .board-slider-blog .card.center {
+  margin: 47px 0px;
+}
+.blog .slider-blog .board-slider-blog .card .card-link {
+  color: #d4a325;
+  font-size: 12px;
+}
+.blog .card .card-title {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.blog .card .card-text {
+  font-size: 12px;
+}
+.blog .button a {
+  width: 90%;
+  font-size: 14px;
+  border-radius: 9px;
+  border: 2px solid #2b2b29;
+}
+@media (min-width: 375px) {
+  .blog .slider-blog .board-slider-blog {
+    width: 95%;
+  }
+  .blog .slider-blog {
+    width: 92%;
+    margin: 0 auto;
+  }
+  .blog .judul h1 {
+    font-size: 32px;
+  }
+  .blog .judul p {
+    letter-spacing: 0em;
+    font-size: 16px;
+    width: 80%;
+  }
+
+  .blog .slider-blog .board-slider-blog .card img {
+    max-height: 250px;
+  }
+  .blog .card .card-title {
+    font-size: 17px;
+  }
+  .blog .button a {
+    width: 80%;
+    padding: 14px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .blog .slider-blog {
+    width: 65%;
+    padding: 20px;
+  }
+  .blog .judul h1 {
+    font-size: 32px;
+  }
+  .blog .judul p {
+    font-size: 16px;
+  }
+  .blog .slider-blog .board-slider-blog {
+    width: 95%;
+  }
+  .blog .slider-blog .board-slider-blog .card {
+    height: 100%;
+  }
+  .blog .button a {
+    width: 360px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .blog .judul h1 {
+    font-size: 38px;
+  }
+  .blog .judul p {
+    margin-top: 28px !important;
+    margin-bottom: 14px !important;
+    font-size: 18px;
+  }
+  .blog .slider-blog {
+    width: 100%;
+    padding: 0px;
+  }
+  .blog .slider-blog .board-slider-blog {
+    min-width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .blog .slider-blog .board-slider-blog .card {
+    height: auto;
+    min-width: 275px;
+    max-width: 275px;
+    margin-right: 0px;
+  }
+
+  .blog .button a {
+    width: 275px;
+    border-radius: 12px;
+    padding: 12px 0px;
+    font-size: 15px;
+  }
+
+  .blog .slider-blog .board-slider-blog .card.center {
+    margin: 0px 40px;
+  }
+  .blog .card .card-title {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .blog .card .card-text {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .blog .card .card-link {
+    font-size: 9px;
+  }
+}
+@media (min-width: 1200px) {
+  .blog .judul h1 {
+    font-size: 44px;
+  }
+  .blog .slider-blog .board-slider-blog .card img {
+    min-height: 250px;
+    object-fit: cover;
+  }
+  .blog .judul p {
+    margin-top: 28px !important;
+  }
+  .blog .slider-blog .board-slider-blog {
+    justify-content: center;
+  }
+  .blog .slider-blog .board-slider-blog .card {
+    min-width: 330px;
+    max-width: 330px;
+    margin-right: 0px;
+  }
+  .blog .slider-blog .board-slider-blog .card.center {
+    margin: 0px 40px;
+  }
+  .blog .card .card-title {
+    font-size: 16px;
+  }
+  .blog .card .card-text {
+    font-size: 12px;
+  }
+  .blog .card .card-link {
+    font-size: 11px;
+  }
+  .blog .button a {
+    font-size: 16px;
+    padding: 14px 0px;
+    width: 330px;
+  }
+}
+@media (min-width: 1400px) {
+  .blog .judul h1 {
+    font-size: 56px;
+  }
+  .blog .judul p {
+    margin-top: 38px !important;
+    margin-bottom: 19px !important;
+  }
+  .blog .slider-blog .board-slider-blog .card img {
+    /* min-height: 220px; */
+  }
+  .blog .slider-blog .board-slider-blog .card.center {
+    margin: 0px 50px;
+  }
+  .blog .slider-blog .board-slider-blog .card {
+    min-width: 380px;
+    max-width: 380px;
+  }
+
+  .blog .card .card-title {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .blog .card .card-text {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .blog .card .card-link {
+    font-size: 12px;
+  }
+  .blog .button a {
+    width: 380px;
+    padding: 18px;
+    font-size: 18px;
+    border: 3px solid #2b2b29;
+  }
+}
